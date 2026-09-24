@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---- NPU 교재 저장소 추가 규칙 ----
+# DFC 설치 파일: EULA상 재배포 금지
+*.whl
+# DFC 중간 산출물: 저장소 대신 Releases로 배포
+*.har
+*.hef
+# 데이터셋 원본: 노트북이 직접 내려받음
+imagenette2-160/
+*.tgz
